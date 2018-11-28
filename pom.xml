@@ -26,6 +26,15 @@
       <url>http://ec2-18-221-177-167.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/devops-snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
+	
+<dependencies>
+	<dependency>
+            <groupId>commons-beanutils</groupId>
+            <artifactId>commons-beanutils</artifactId>
+            <version>1.9.2</version>
+            <type>jar</type>
+</dependency>
+	</dependencies>
   
     <build>
         <plugins>
